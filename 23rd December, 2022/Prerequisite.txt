@@ -1,0 +1,39 @@
+Main Softwares to download and install:
+---------------------------------------
+Local Machine must have x64 CPU architecture with a x64 bit Operating system installed
+ 
+1. Visual Studio Code
+---------------------
+Link : https://code.visualstudio.com/
+
+Description : We will use the Visual Studio Code editor for local project management, problem solving,
+brain-storming, Machine Learning and Deep Learning based Model training, development and storage.
+
+2. Miniconda
+------------
+Link : https://docs.conda.io/en/latest/miniconda.html
+
+Description : A miniconda installion on local machine will be needed, to access and use the 'conda' package
+manager. We will manage one or more virtual python environments using 'conda', what a package manager is and
+how to use one to manage isolated virtual python environments will be covered in detail in today's session.
+
+3. Git
+------
+Link : https://git-scm.com/downloads
+
+Description : As our aim is to train up professionally, we need to have a good grasp of Continuos Integration(CI)
+and some basics of DevOps. A local installation of the software 'Git' and an account on Github will be necessary for this.
+We will discuss today about how to create and manage github repositories, also how to issue add, commit, push and pull commands
+on github repositories using the command shell. 
+
+
+Optional:
+Powershell 7.3 (If not already installed on windows)
+Link : https://github.com/PowerShell/PowerShell/releases/download/v7.3.0/PowerShell-7.3.0-win-x64.msi
+
+
+Visual Studio Code Extensions
+-----------------------------
+1. Python
+2. Gitlens
+3. vscode-icons

@@ -1,0 +1,58 @@
+Overview: 23rd December, 2022
+
+Part 1: How to properly setup and use a Local Python environment for development
+--------------------------------------------------------------------------
+-> What is Python?
+-> Installing and managing python environments
+-> Using a code editor(Visual Studio Code) for project management
+-> Understanding and using intellisense and autocomplete features of VSCode 
+-> Setting up Jupyter Notebook environment in VSCode
+-> Understanding Continuous Integration(CI) through using git
+-> Using and learning terminal commands (cmd, powershell, bash)
+-> Understanding Python packages and their API's(Application programming interface)
+
+
+Part 2: Core Language and Core High Performance Computation Library
+-------------------------------------------------------------------
+-> Basics of Python
+	-> Python Data Model
+	-> Packages, Modules, Classes, Functions Architecture
+	-> Fundamental Data Types
+	-> Loop and Flow Control Keywords (for, while, if-elif-else block)
+	-> Fundamental functions (len, dir, range, enumerate, zip)
+	-> Python Standard Libraries
+		-> sys
+		-> os
+		-> dis
+		-> time
+		-> random
+		-> secrets
+		-> itertools
+		-> functools
+	-> Object Oriented Programming
+		-> Basic Class Syntax in python
+		-> Dunder Methods
+		-> Staticmethods and Classmethods
+		-> Operator Overloading
+		-> Implementing Derived Classes 
+-> Basics of NumPy
+-> Basics of Numba
+
+
+Part 3: Core Data Management and Visualization Libraries
+--------------------------------------------------------
+-> Basics of Pandas
+-> Basics of Matplotlib
+-> Basics of Seaborn
+
+
+Part 4: Core Machine Learning and Deep Learning Libraries
+---------------------------------------------------------
+-> Basics of Scikit-learn and statsmodels 
+-> Basics of Tensorflow and Pytorch
+
+
+Part 5: Google Collaboratory and Kaggle Notebooks for Cloud Data Science Environments
+-------------------------------------------------------------------------------------
+-> Google Collaboratory
+-> Kaggle
