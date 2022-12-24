@@ -1,3 +1,10 @@
+# This is an example of a simple discord bot
+# that can collect data and save it in google docs by simultaneously using 
+# three different API's
+
+# Our first capstone project will be based on this
+# but it will be based on our own new discord server named 'Data science'
+
 import discord
 import gspread
 import pandas as pd
@@ -54,7 +61,7 @@ async def on_message(message):
             headers = {
                 "X-API-Key": "#Secret#"}
 
-            url = 'https://www.royalroad.com/api/reviews/' + reviewId
+            url = "#Secret API URL#" + reviewId
             soup = requests.get(url, headers=headers).json()
             date = soup['date'].split('T')[0]
 
@@ -83,7 +90,7 @@ async def on_message(message):
             headers = {
                 "X-API-Key": "#Secret#"}
 
-            url = 'https://www.royalroad.com/api/reviews/' + reviewId
+            url = "#Secret API URL#" + reviewId
             soup = requests.get(url, headers=headers).json()
             date = soup['date'].split('T')[0]
 
@@ -119,7 +126,7 @@ async def on_message(message):
             headers = {
                 "X-API-Key": "#Secret#"}
 
-            url = 'https://www.royalroad.com/api/reviews/' + reviewId
+            url = "#Secret API URL#" + reviewId
             soup = requests.get(url, headers=headers).json()
             date = soup['date'].split('T')[0]
 
@@ -148,7 +155,7 @@ async def on_message(message):
             headers = {
                 "X-API-Key": "#Secret#"}
 
-            url = 'https://www.royalroad.com/api/reviews/' + reviewId
+            url = "#Secret API URL#" + reviewId
             soup = requests.get(url, headers=headers).json()
             date = soup['date'].split('T')[0]
 
