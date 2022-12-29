@@ -1,0 +1,1 @@
+conda install -p c:\USERS\MSI\MINICONDA3\ENVS\MYENV package_name
